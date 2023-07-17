@@ -4,6 +4,6 @@ firstElement = numList[0]
 lastElement = numList[-1]
 
 if (firstElement == lastElement):
-    print("Elements are Same")
+    print(True)
 else:
-    print("Elements are different")
+    print(False)
