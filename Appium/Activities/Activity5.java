@@ -51,7 +51,7 @@ public class Activity5 {
         wait.until(ExpectedConditions.elementToBeClickable(AppiumBy.id("recipient_text_view")));
 
         // Find the element to add recipient
-        driver.findElement(AppiumBy.id("recipient_text_view")).sendKeys("9014842678");
+        driver.findElement(AppiumBy.id("recipient_text_view")).sendKeys("8454015024");
         // Press ENTER
         driver.pressKey(new KeyEvent().withKey(AndroidKey.ENTER));
 
