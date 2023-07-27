@@ -23,7 +23,7 @@ public class ProjectSpecTest {
         reqSpec = new RequestSpecBuilder()
                 .setBaseUri("https://api.github.com")
                 .addHeader("Content-Type", "application/json")
-                .addHeader("Authorization","Bearer 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")
+                .addHeader("Authorization","Bearer ")
                 .build();
     }
 
@@ -31,7 +31,7 @@ public class ProjectSpecTest {
     public void sendPost() {
         Map<String, Object> reqBody = new HashMap<>();
         reqBody.put("title", "TestAPIKey");
-        reqBody.put("key", "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKpX9eAuEd+KJ7STVZCzTjqo1+oVvJiKKXjekGDOxaSj");
+        reqBody.put("key", "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBe5pp9MNApQQaixyiReQYcDbPwYhkNntWD4FGLV5tpo");
 
         Response response = given()
                 .spec(reqSpec)
